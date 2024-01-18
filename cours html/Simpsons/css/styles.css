@@ -1,0 +1,64 @@
+/* ----------------head--------------- */
+header {
+    background-color: #4c8dcd
+    
+}
+header img {
+    width: 800px;
+    display: flex;
+justify-content: center;
+  }
+
+header p {
+    color: white;
+    
+  }
+
+
+
+html {
+    background-color: #fdd116 ;
+  }
+/* ----------------body--------------- */
+nav{
+    background-color: #4c8dcd;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 0 0px 0px 0px;
+    border: 0px solid black;
+  }
+
+main {
+    display: flex;
+    background-color: #ffffff;
+    padding: 1 150px 0px 0px;
+    border: 0px solid black;
+    display : flex;
+flex-direction: row;
+
+  }
+
+
+aside {
+    width: 150px;
+    margin: 0 auto;
+    background-color: #4c8dcd;
+    padding: 0 10px 10px 10px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+aside img {
+    width: 100px;
+}
+
+figure {
+    padding: 0 0px 0px 0px;
+    
+}
+  
+/* ----------------footer------------- */
+
