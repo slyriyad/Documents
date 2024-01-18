@@ -1,18 +1,28 @@
 /* ----------------head--------------- */
 header {
-    background-color: #4c8dcd
-    
+    background-color: #4c8dcd;
+  text-align: center;
 }
+
+
+header strong {
+  color: white;
+  }
+
+figure {
+  padding: 0 0px 0px 0px;
+  border: 0px;
+  margin: 0
+}
+
 header img {
-    width: 800px;
+  width:100%;
+  height:100%;;
     display: flex;
 justify-content: center;
   }
 
-header p {
-    color: white;
-    
-  }
+
 
 
 
@@ -20,17 +30,37 @@ html {
     background-color: #fdd116 ;
   }
 /* ----------------body--------------- */
-nav{
-    background-color: #4c8dcd;
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding:  0px 0px 0px;
+  border: 0px solid black;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-sizing: content-box;
+  width : 60%;
+  height :100%;
 }
 
-body {
-    width: 800px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    padding: 0 0px 0px 0px;
-    border: 0px solid black;
-  }
+article {
+  width: 50%;
+}
+h1 {
+  color: #fdd116;
+}
+
+nav{
+  color: #ffffff;  
+  background-color: #4c8dcd;
+    box-sizing: content-box;
+    width: 25%;
+    height: 50%;
+    padding: 0 10px 10px 10px;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+
 
 main {
     display: flex;
@@ -44,14 +74,18 @@ flex-direction: row;
 
 
 aside {
-    width: 150px;
-    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    width: 25%;
+    margin-top: 10px;
     background-color: #4c8dcd;
     padding: 0 10px 10px 10px;
-    border: 5px solid rgb(255, 255, 255);
+    border: 20px solid rgb(255, 255, 255);
+    
 }
 
 aside img {
+  margin-top: 10px;
     width: 100px;
 }
 
